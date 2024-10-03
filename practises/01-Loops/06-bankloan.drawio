@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" version="24.7.17">
+  <diagram name="Page-1" id="vBbw8ruPKFvtOzRJlKub">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UPE4zQe5YPu0HthHj3Ae-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="UPE4zQe5YPu0HthHj3Ae-1" target="UPE4zQe5YPu0HthHj3Ae-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UPE4zQe5YPu0HthHj3Ae-1" value="Start" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UPE4zQe5YPu0HthHj3Ae-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="UPE4zQe5YPu0HthHj3Ae-2" target="UPE4zQe5YPu0HthHj3Ae-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UPE4zQe5YPu0HthHj3Ae-2" value="int salary;&lt;div&gt;int loan;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UPE4zQe5YPu0HthHj3Ae-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="UPE4zQe5YPu0HthHj3Ae-4" target="UPE4zQe5YPu0HthHj3Ae-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UPE4zQe5YPu0HthHj3Ae-4" value="bool isAllowed = loan &amp;lt;= (salary * 12) * 0.6" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="295" y="270" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UPE4zQe5YPu0HthHj3Ae-9" value="True" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="UPE4zQe5YPu0HthHj3Ae-6" target="UPE4zQe5YPu0HthHj3Ae-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UPE4zQe5YPu0HthHj3Ae-11" value="False" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="UPE4zQe5YPu0HthHj3Ae-6" target="UPE4zQe5YPu0HthHj3Ae-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UPE4zQe5YPu0HthHj3Ae-6" value="isAllowed" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="340" y="400" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="UPE4zQe5YPu0HthHj3Ae-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="UPE4zQe5YPu0HthHj3Ae-8" target="UPE4zQe5YPu0HthHj3Ae-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UPE4zQe5YPu0HthHj3Ae-8" value="You&#39;re allowed for bank loan" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="405" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UPE4zQe5YPu0HthHj3Ae-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="UPE4zQe5YPu0HthHj3Ae-10" target="UPE4zQe5YPu0HthHj3Ae-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UPE4zQe5YPu0HthHj3Ae-10" value="You&#39;re not allowed for bank loan" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
+          <mxGeometry x="600" y="405" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UPE4zQe5YPu0HthHj3Ae-12" value="End" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
